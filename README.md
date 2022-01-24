@@ -5,7 +5,7 @@
 https://watch.screencastify.com/v/8lWWOHVmAPTIcgPqdFil
 
 
-##LINK TO GENERATED HTML
+## LINK TO GENERATED HTML
 file:///Users/xavyrrodriguez/projects/Team-profile-generator/dist/index.html
 
 
