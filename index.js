@@ -1,4 +1,4 @@
-const generateHTML = require('./src/generateHTML');
+const generateHTML = require('./src/generateHTML')
 
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
@@ -41,13 +41,12 @@ const addManager = () => {
             type: 'input',
             name: 'email',
             message: "Please enter the manager's email.",
-            validate: email => {
-                valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
-                if (valid) {
+            validate: nameInput => {
+                if (nameInput) {
                     return true;
-                } else {
-                    console.log ('Please enter an email!')
-                    return false; 
+                } else { 
+                    console.log('please enter email')
+                    return false;
                 }
             }
         },
@@ -174,7 +173,7 @@ const addEmployee = () => {
             console.log(employee);
         }
 
-        teamArray.push(emplyee);
+        teamArray.push(employee);
 
         if (confirmAddEmployee) {
             return addEmployee(teamArray);
