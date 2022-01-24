@@ -13,3 +13,21 @@ test('gets employee name', () => {
 
     expect(employee.getName()).toEqual(expect.any(String));
 });
+
+test('gets employee id', () => {
+    const employee = new Employee('Xavyr', 24, 'xavyr24@gmail.com');
+
+    expect(employee.getId()).toEqual(expect.any(Number));
+});
+
+test('gets employee email', () => {
+    const employee = new Employee('Xavyr', 24, 'xavyr24@gmail.com');
+
+    expect(employee.getEmail()).toEqual(expect.any(String));
+});
+
+test('gets role of employee', () => {
+    const employee = new Employee('Xavyr', 90, 'xavyr24@gmail.com');
+
+    expect(employee.getRole()).toEqual('Employee');
+});
