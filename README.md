@@ -1,5 +1,14 @@
 # Team-profile-generator
 
+
+## LINK TO DEMO VID.
+https://watch.screencastify.com/v/8lWWOHVmAPTIcgPqdFil
+
+
+##LINK TO GENERATED HTML
+file:///Users/xavyrrodriguez/projects/Team-profile-generator/dist/index.html
+
+
 ##AS A manager
 #I WANT to generate a webpage that displays my team's basic info
 #SO THAT I have quick access to their emails and GitHub profiles
